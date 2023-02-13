@@ -1,0 +1,9 @@
+@use 'utilities'as *;
+
+h1 {
+    color: black;
+
+    @include breakpoint(large) {
+        color: green;
+    }
+}
